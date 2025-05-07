@@ -1,3 +1,5 @@
 #!/usr/bin/env python3
 
-wrong_type = 'abc' + 123
+
+# After (fix: convert int to str)
+wrong_type = "abc" + str(123)
